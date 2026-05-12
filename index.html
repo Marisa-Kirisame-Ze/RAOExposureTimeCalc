@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAO Calc</title>
+    <script type="text/javascript" src="/scripts/calc.js"></script>
+</head>
+<body>
+    <form id = "inputs">
+        <label for="SNR">SNR</label>
+        <input type="number" id="SNR" name="SNR"><br>
+        <label for="Flux">Source Flux</label>
+        <input type="number" id="Flux" name="Flux"><br>
+        <label for="darkRate">Dark Rate</label>
+        <input type="number" id="darkRate" name="darkRate"><br>
+        <label for="backgroundRate">Background Rate</label>
+        <input type="number" id="backgroundRate" name="backgroundRate"><br>
+        <label for="readNoise">Read Noise</label>
+        <input type="number" id="readNoise" name="readNoise"><br>
+        <label for="nPix">nPix</label>
+        <input type="number" id="nPix" name="nPix"><br>
+        <input type="submit" value="Calculate">
+    </form>
+
+    <p id="result"></p>
+</body>
+</html>
